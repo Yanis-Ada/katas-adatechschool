@@ -1,4 +1,4 @@
-const calendrierDuCrayon = {
+const penCalendar = {
     septembre: 10,
     octobre: 9,
     novembre: 8,
@@ -11,9 +11,10 @@ const calendrierDuCrayon = {
     juin: 1,
 };
 
-function drawMyPen(mois){
-    
+function drawMyPen(month) {
+    let penTip = "/\\";
+    return penTip;
 }
 
-drawMyPen()
+console.log(drawMyPen("septembre"));
 
