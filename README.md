@@ -8,7 +8,7 @@ Each folder contains a kata with its code and a short explanation of its purpose
 ## Table of Contents
 - [Kata 1: Quotations App] – A small web application built with **HTML, CSS, and JavaScript** to collect and display your favorite quotes or movie lines.  
 - [Kata 2: Mini Weather Station] – A mini weather app that fetches the current temperature of a given city using **fetch, async/await**, and JSON manipulation from a public API.  
-- Kata 3: coming soon 🚀  
+- Kata 3: ASCII art   
 
 ---
 
