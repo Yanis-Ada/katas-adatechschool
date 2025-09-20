@@ -11,10 +11,35 @@ const penCalendar = {
     juin: 1,
 };
 
+let penTip = ' /\\\n/__\\';
+let penBody = '||||';
+let penBottom = '|__|';
+let simpleGum = '|__|';
+let doubleGum = '|  |\n|__|';
+
 function drawMyPen(month) {
-    let penTip = "/\\";
-    return penTip;
-}
+    console.log(penTip);
+    
+    for (let i = 0; i < penCalendar[month]; i++) {
+        console.log(penBody);
+    }
 
-console.log(drawMyPen("septembre"));
+    if (penCalendar[month] < 4) {
+        console.log(penBottom);
+        console.log(simpleGum);
+    } else {
+        console.log(doubleGum);
+    }
+  
+};
 
+drawMyPen('juin');
+drawMyPen('mai');
+drawMyPen('avril');
+drawMyPen('mars');
+drawMyPen('fevrier');
+drawMyPen('janvier');
+drawMyPen('decembre');
+drawMyPen('novembre');
+drawMyPen('octobre');
+drawMyPen('septembre');
